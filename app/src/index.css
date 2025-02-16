@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+textarea, select, button {
+  font-family: 'Press Start 2P', cursive;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.response {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  textarea, select, button {
+    width: 90%;
+  }
+}
